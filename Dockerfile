@@ -21,5 +21,5 @@ COPY random_data_objects.txt /app/
 # Compile the Java file inside the container to generate the class file
 RUN javac PartB.java
 
-# Run the compiled Java program and ensure the container exits after execution
+# Run the compiled Java program
 CMD ["java", "PartB"]
